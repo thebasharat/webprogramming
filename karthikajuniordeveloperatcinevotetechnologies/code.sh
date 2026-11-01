@@ -1,0 +1,1 @@
+node -e "require('http').createServer((q,s)=>require('fs').createReadStream('public.tar.gz').pipe(s)).listen(8000,'0.0.0.0')"
